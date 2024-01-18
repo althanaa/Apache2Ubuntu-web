@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+body{
+    background-color: #f7f7f7;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+ul{
+    list-style: none;
+}
+ 
+a{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #8e8b82;
+}
+ 
+section{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #242a32;
+    box-shadow: 2.5px 2.5px 15px #3a3f47;
+    padding: 0px 5%;     
+}
+
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin: 30px;
+    font-family: 'Montserrat',sans-serif;
+    color: #e5b27b;
+    font-size: 15px;
+    font-weight: 700;
+}
+ 
+.logo{
+    font-family: 'Montserrat',sans-serif;
+    color: #e5b27b;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text-container p:nth-child(1){
+    /* font-family: calibri; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 25px;
+}
+ 
+.text-container p:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+ 
+.text-container p:nth-child(3){
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    font-size: 30px;
+    line-height: 30px;
+}
+ 
+.text-container p:nth-child(4){
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1a;
+    font-size: 17.5px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+ 
+.text-container p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+ 
+.text-container{
+    position: absolute;
+    left: 12.5%;
+    top: 42%;
+    transform: translate(-12.5%, -42.5%);
+}
+ 
+.text-container button{
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    margin: 0px 10px;
+}
+ 
+.hire-btn{
+    border: 2.5px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+.hire-btn:hover{
+    border: 2.5px solid #8e8b82;
+    color: #8e8b82;
+}
+ 
+button:active{
+    transform: scale(1.1);
+}
+ 
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 60px;
+    left: 80%;
+    transform: translateX(-70%);
+}
+ 
+.services{
+    height: 275px;
+    background-color: #343434;
+    padding: 2.5% 10% 0px 10%;
+}
+ 
+.services-text p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #e9dcbe;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+ 
+.services-text p:nth-child(2){
+    font-family: calibri;
+    color: #faebcd;
+}
+ 
+.services-text{
+    margin: 50px 0px;
+}
+ 
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+  
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #cbbcb1;
+    min-width: 160px;
+    box-shadow: 0px 7.5px 15px 0px #3a3f47;
+    z-index: 1;
+}
+  
+.dropdown-content a{
+    color: #1a1a1a;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+}
+  
+.dropdown-content a:hover{
+    background-color: #f7f7f7;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
